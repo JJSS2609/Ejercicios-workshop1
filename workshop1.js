@@ -10,3 +10,5 @@ console.log(" la respuesta del punto a es: " + ejercicioa);
 const antiguedadmenor = Number(antiguedad) < 10 
 const ejerciciob = sueldoinferior || antiguedadmenor;
 console.log("la respuesta del punto b es: " + ejerciciob);
+const sueldosuoerior = !sueldoinferior;
+console.log("la respuesta del punto c es : " + sueldosuoerior);
