@@ -7,3 +7,6 @@ const sueldoinferior = Number(sueldo) < 2000;
 const antiguedad10 = Number(antiguedad) == 10 || Number(antiguedad) > 10;
 const ejercicioa = sueldoinferior && antiguedad10;
 console.log(" la respuesta del punto a es: " + ejercicioa);
+const antiguedadmenor = Number(antiguedad) < 10 
+const ejerciciob = sueldoinferior || antiguedadmenor;
+console.log("la respuesta del punto b es: " + ejerciciob);
